@@ -1,0 +1,67 @@
+&text=
+<!-- paragraphs should be contained in <p> tags -->
+<!-- for dark blue text put <font color="#006699"> before the text and </font> after the text -->
+
+<p><font color="#006699">Hailey Day</font></p>
+<p>owner/hairstylist extraordinaire</p>
+<br>
+
+<p><font color="#006699">Q. Where does your inspiration come from?</font></p>
+
+<p>A. I find inspiration all around me - through books, music, magazines, movies, etc. Much of my inspiration comes from the wonderful team of stylists I work with as well as the clients that make my career possible.</p>
+<br>
+
+<p><font color="#006699">Q. What is the best part of your job/career?</font></p>
+
+<p>A. I am in an environment surrounded by truly driven people whom I have much respect and admiration for, and my clients validate my career choice on a daily basis - it doesn't get much better than that!</p>
+<br>
+
+<p><font color="#006699">Q. What is your approach to determining which products to use on your client?</font></p>
+
+<p>A. In an age where new product lines are launched every day - it can serve to actually increase confusion with so many choices out there. The first step is identifying your hair type. Seems simple in theory - but many people don't realize the importance of a good hair regime. Once you know what you have to work with - then you can choose the suitable product.</p>
+<br>
+
+<p><font color="#006699">Q. What do you think is the essential element that completes a "look"?</font></p>
+
+<p>A. A good haircut.</p>
+<br>
+
+<p><font color="#006699">Q. What might we find you doing outside the salon?</font></p>
+
+<p>A. Just about every facet of my life revolves around the salon. And my dogs. Twila and Bosley.</p>
+<br>
+
+<p><font color="#006699">Q. What additional talents/hobbies do you possess that may be unknown to the general public? (until now!)</font></p>
+
+<p>A. I have a pretty uncanny sense of direction. I am also a pro at Trivial Pursuit.</p>
+<br>
+
+<p><font color="#006699">Q. What does a typical meal consist of in your home?</font></p>
+
+<p>A. Vegetarian tacos. Takes all of ten minutes.</p>
+<br>
+
+<p><font color="#006699">Q. What is one lesson that you've learned the hard way?</font></p>
+
+<p>A. As long as the space between the lessons keeps getting bigger as I get older - than I must be doing something right.</p>
+<br>
+
+<p><font color="#006699">Q. What styling products did you use this morning?</font></p>
+
+<p>A. tonic, styling creme mixed with a pinch of grooming creme, surf spray and finished with pure abundance for that extra hold.</p>
+<br>
+
+<p><font color="#006699">Q. Do you have a favorite room in your house? What makes it special to you?</font></p>
+
+<p>A. My kitchen - not because I like to cook mind you, but because I love to EAT!</p>
+<br>
+
+<p><font color="#006699">Q. How do you feel about men coloring their hair?</font></p>
+
+<p>A. I feel great about it - it's about time.</p>
+<br>
+
+<p><font color="#006699">Q. How do you define "bliss"?</font></p>
+
+<p>A. Perfect contentment - or otherwise my life in general.</p>
+<br>

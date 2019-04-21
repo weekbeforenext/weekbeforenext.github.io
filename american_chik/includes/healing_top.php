@@ -1,0 +1,1 @@
+<img src="../media/images/healing/healing_left.jpg" alt="Healing is such a powerful word and it offers us the use of plants and nature, much like the cherokee, to refresh our bodies and minds." width="310" height="405" border="0">

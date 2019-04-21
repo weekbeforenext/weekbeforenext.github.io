@@ -1,0 +1,61 @@
+&text=
+<!-- paragraphs should be contained in <p> tags -->
+<!-- for dark blue text put <font color="#006699"> before the text and </font> after the text -->
+
+<p><font color="#006699">Angie Laws</font></p>
+<p>hairstylist extraordinaire</p>
+<br>
+<p><font color="#006699">Q. What is the best part of your job/career?</font></p>
+
+<p>A. Working at bliss enables me to push myself artistically and grow as an artist in my field.</p>
+<br>
+
+<p><font color="#006699">Q. What do you think is the essential element that completes a "look"?</font></p>
+
+<p>A. Finding the right hairstylist.</p>
+<br>
+
+<p><font color="#006699">Q. What might we find you doing outside the salon?</font></p>
+
+<p>A. Shopping. Mmmmm. Shopping. Playing with my dogs. Oh yes, and did I happen to mention that I love to shop?</p>
+<br>
+
+<p><font color="#006699">Q. What additional talents/hobbies do you possess that may be unknown to the general public? (until now!)</font></p>
+
+<p>A. I actually was the co-founder/creator of a dance that later came to be known as the "Macarena". Just kidding, but seriously, I am pretty good at dancing really, really, really.....off-beat.</p>
+<br>
+
+<p><font color="#006699">Q. What does a typical meal consist of in your home?</font></p>
+
+<p>A. Green beans w/ potatoes, farm-fresh tomatoes, onions, and biscuits.</p>
+<br>
+
+<p><font color="#006699">Q. What is one lesson that you've learned the hard way?</font></p>
+
+<p>A. People either love red hair, or they hate red hair. I've found that it is one or the other - there are very few moderates I guess. Hee hee hee!</p>
+<br>
+
+<p><font color="#006699">Q. What styling products did you use this morning?</font></p>
+
+<p>A. prep, thickening spray, styling creme, does-it-all, and sumotech.</p>
+<br>
+
+<p><font color="#006699">Q. Do you have a favorite room in your house? What makes it special to you?</font></p>
+
+<p>A. I spend a large amount of time in my bright and open kitchen. It's special because even though I just bought the house - the kitchen has this homey, familial quality to it that puts me at ease. Its also Huuuuge!</p>
+<br>
+
+<p><font color="#006699">Q. How do you feel about men coloring their hair?</font></p>
+
+<p>A. There is absolutely no reasons against it. Bring em' on!</p>
+<br>
+
+<p><font color="#006699">Q. What stands out as the most horrific hairstyle you have ever had?</font></p>
+
+<p>A. O.K. Bear in mind that were talking about kindergarten. I had a rat-tail. Hey! No smirking!</p>
+<br>
+
+<p><font color="#006699">Q. How do you define "bliss"?</font></p>
+
+<p>A. The coolest salon on the planet!</p>
+<br>

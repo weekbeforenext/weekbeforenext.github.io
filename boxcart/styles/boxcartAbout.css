@@ -1,0 +1,520 @@
+body{
+	margin: 0px;
+	background-image:   url("../media/background_about.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.leftnav2{
+	width: 195px;
+	height: 39px;
+}
+.leftnav1{
+	width: 195px;
+	height: 21px;
+}
+#about { 
+	display: block;
+	background-image:   url("../media/about.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 39px;
+	position: absolute;
+	top: 320px;
+	left: 0px;
+}
+#about a:link{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/about.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#about a:visited{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/about.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#about a:hover{
+	display: block;
+	background-image:   url("../media/about_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#aboutSelected { 
+	display: block;
+	background-image:   url("../media/about_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 39px;
+	position: absolute;
+	top: 320px;
+	left: 0px;
+}
+#company { 
+	display: block;
+	background-image:   url("../media/thecompany.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 21px;
+	position: absolute;
+	top: 39px;
+	left: 0px;
+}
+#company a:link{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/thecompany.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#company a:visited{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/thecompany.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#company a:hover{
+	display: block;
+	background-image:   url("../media/thecompany_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#companySelected { 
+	display: block;
+	background-image:   url("../media/thecompany_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 21px;
+	position: absolute;
+	top: 39px;
+	left: 0px;
+}
+#boxes { 
+	display: block;
+	background-image:   url("../media/theboxes.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 21px;
+	position: absolute;
+	top: 60px;
+	left: 0px;
+}
+#boxes a:link{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/theboxes.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#boxes a:visited{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/theboxes.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#boxes a:hover{
+	display: block;
+	background-image:   url("../media/theboxes_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#boxesSelected { 
+	display: block;
+	background-image:   url("../media/theboxes_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 21px;
+	position: absolute;
+	top: 60px;
+	left: 0px;
+}
+#facilities { 
+	display: block;
+	background-image:   url("../media/thefacilities.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 21px;
+	position: absolute;
+	top: 81px;
+	left: 0px;
+}
+#facilities a:link{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/thefacilities.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#facilities a:visited{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/thefacilities.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#facilities a:hover{
+	display: block;
+	background-image:   url("../media/thefacilities_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#facilitiesSelected { 
+	display: block;
+	background-image:   url("../media/thefacilities_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 21px;
+	position: absolute;
+	top: 81px;
+	left: 0px;
+}
+#contactus { 
+	display: block;
+	background-image:   url("../media/contactus.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 21px;
+	position: absolute;
+	top: 102px;
+	left: 0px;
+}
+#contactus a:link{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/contactus.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#contactus a:visited{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/contactus.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#contactus a:hover{
+	display: block;
+	background-image:   url("../media/contactus_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#contactusSelected { 
+	display: block;
+	background-image:   url("../media/contactus_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 21px;
+	position: absolute;
+	top: 102px;
+	left: 0px;
+}
+#uses { 
+	display: block;
+	background-image:   url("../media/uses.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 39px;
+	position: absolute;
+	top: 443px;
+	left: 0px;
+}
+#uses a:link{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/uses.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#uses a:visited{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/uses.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#uses a:hover{
+	display: block;
+	background-image:   url("../media/uses_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#usesSelected { 
+	display: block;
+	background-image:   url("../media/uses_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 39px;
+	position: absolute;
+	top: 464px;
+	left: 0px;
+}
+#advantage { 
+	display: block;
+	background-image:   url("../media/advantage.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 21px;
+	position: absolute;
+	top: 482px;
+	left: 0px;
+}
+#advantage a:link{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/advantage.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#advantage a:visited{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/advantage.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#advantage a:hover{
+	display: block;
+	background-image:   url("../media/advantage_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#advantageSelected { 
+	display: block;
+	background-image:   url("../media/advantage_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 21px;
+	position: absolute;
+	top: 503px;
+	left: 0px;
+}
+#tvad { 
+	display: block;
+	background-image:   url("../media/tv_ad.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 21px;
+	position: absolute;
+	top: 503px;
+	left: 0px;
+}
+#tvad a:link{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/tv_ad.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#tvad a:visited{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/tv_ad.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#tvad a:hover{
+	display: block;
+	background-image:   url("../media/tv_ad_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#tvadSelected{
+	display: block;
+	background-image:   url("../media/tv_ad_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 195px;
+	height: 21px;
+	position: absolute;
+	top: 524px;
+	left: 0px;
+}
+#topcart{
+	width: 139px;
+	height: 38px;
+	background-image:   url("../media/boxcart_top.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	top: 8px;
+	left: 590px;
+}
+.rightnav1{
+	width: 139px;
+	height: 23px;
+}
+#pricing{
+	display: block;
+	background-image:   url("../media/pricing.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 139px;
+	height: 23px;
+	position: absolute;
+	top: 46px;
+	left: 590px;
+}
+#pricing a:link{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/pricing.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#pricing a:visited{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/pricing.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#pricing a:hover{
+	display: block;
+	background-image:   url("../media/pricing_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#pricingSelected{
+	display: block;
+	background-image:   url("../media/pricing_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 139px;
+	height: 23px;
+	position: absolute;
+	top: 46px;
+	left: 590px;
+}
+#reserve{
+	display: block;
+	background-image:   url("../media/reserve.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 139px;
+	height: 23px;
+	position: absolute;
+	top: 69px;
+	left: 590px;
+}
+#reserve a:link{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/reserve.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#reserve a:visited{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/reserve.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#reserve a:hover{
+	display: block;
+	background-image:   url("../media/reserve_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#reserveSelected{
+	display: block;
+	background-image:   url("../media/reserve_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 139px;
+	height: 23px;
+	position: absolute;
+	top: 69px;
+	left: 590px;
+}
+#packing{
+	display: block;
+	background-image:   url("../media/supplies.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 139px;
+	height: 23px;
+	position: absolute;
+	top: 92px;
+	left: 590px;
+}
+#packing a:link{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/supplies.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#packing a:visited{
+	display: block;
+	text-decoration: none;
+	background-image:   url("../media/supplies.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#packing a:hover{
+	display: block;
+	background-image:   url("../media/supplies_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#packingSelected{
+	display: block;
+	background-image:   url("../media/supplies_over.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 139px;
+	height: 23px;
+	position: absolute;
+	top: 92px;
+	left: 590px;
+}
+#bottomcart{
+	width: 139px;
+	height: 73px;
+	background-image:   url("../media/boxcart_bottom.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	top: 115px;
+	left: 590px;
+}
+#membersOf{
+	position: absolute;
+	top: 543px;
+	left: 18px;
+}
+#membersOf h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003300;
+}
+#selfstorage{
+	position: absolute;
+	top: 568px;
+	left: 0px;
+}
+#ms-sa{
+	position: absolute;
+	top: 649px;
+	left: 0px;
+}

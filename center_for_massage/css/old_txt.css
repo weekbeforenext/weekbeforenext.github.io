@@ -1,0 +1,56 @@
+#footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	color: #000000;
+
+}
+#sidemenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-transform: uppercase;
+
+}
+a:visited {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+
+}
+a:link {
+	color: #999966;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+	color: #999999;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:visited {
+	color: #999999;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+#submenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-transform: capitalize;
+	color: #FFFFFF;
+}
+#bodylinks {
+	color: #999966;
+	text-decoration: underline;
+}
+#glinks {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+}

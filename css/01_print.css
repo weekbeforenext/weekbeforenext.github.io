@@ -1,0 +1,277 @@
+body {
+	background-image: none;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #000000;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+/* Hide from IE-Mac \*/ 
+body {
+	line-height: 105%; 
+} 
+/* End hide */
+#container {
+	background-image: none;
+	position: relative;
+	margin: 0px auto;
+	border: 0px;
+	padding: 10px;
+	width: 580px;
+	\width: 600px; /* IE 5 Win */
+	w\idth: 580px; /* IE 5 Mac and IE 6 */
+	text-align: left;
+	background-color: #FFFFFF;
+}
+#header{
+	margin: 5px 0px 5px 0px;
+	padding: 0px;
+}
+#header h1{
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 2px 0px 2px 0px;
+	padding: 0px;
+}
+#mainNavigation {
+	float: right;
+	width: 325px;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 5px 0px 5px 0px;
+	padding: 0px;
+}
+#mainNavigation ul{
+	float: right;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+#mainNavigation li {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+#mainNavigation li a{
+	padding: 5px 0px 5px 10px;
+	color: #666666;
+	text-decoration: none;
+}
+#mainNavigation li a:hover{
+	color: #000000;
+}
+#mainSelected{
+	margin: 0px;
+	padding: 5px 0px 5px 10px;
+	color: #000000;
+}
+#content {
+	margin: 0px;
+	padding: 0px;
+	width: 580px;
+	font-size: 11px;
+	text-align: left;
+}
+#content ul{
+	list-style-type: square;
+}
+#content h2 {
+	margin: 2px 0px 2px 0px;
+	padding: 0px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.headline{
+	border-bottom: 1px solid #000000;
+	margin: 15px 0px 10px 0px;
+}
+.headline h1 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 380px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.headlineRight{
+	float: right;
+	text-align: right;
+	width: 100px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.headlineResume{
+	text-align: center;
+	font-size: 11px;
+	font-weight: normal;
+	border-bottom: 1px solid #999999;
+	margin: 0px 0px 10px 0px;
+}
+.headlineResumeLeft {
+	float: left;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	width: 150px;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+}
+.headlineResumeRight{
+	float: right;
+	text-align: right;
+	width: 150px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 11px;
+	font-weight: normal;
+}
+#form{
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+#content p{
+	clear: both;
+	margin: 10px 0px 10px 0px;
+}
+#content a {
+	color: #000000;
+	text-decoration: none;
+}
+#content p a {
+	color: #000000;
+	text-decoration: none;
+}
+#content ul a {
+	color: #000000;
+	text-decoration: none;
+}
+.project{
+	border-bottom: 1px solid #999999;
+	margin: 5px 0px 5px 0px;
+}
+.projectLinks{
+	float: right;
+	text-align: right;
+	width: 100px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 11px;
+}
+#projectList{
+	float: left;
+	clear: left;
+	width: 225px;
+	margin: 10px 0px 10px 0px;
+	padding: 0px;
+}
+#projectList h1 {
+	margin: 0px;
+	padding: 0px;
+	width: 225px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	border-bottom: 1px solid #000000;
+}
+#projectList h2 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 110px;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+}
+.projectDetailed{
+	display: none;
+	float: right;
+	clear: right;
+	margin: 10px 0px 10px 0px;
+	padding: 0px;
+	width: 342px;
+}
+.projectDetailed h1{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.image{
+	border: 1px solid #000000;
+	margin: 4px 0px 8px 0px;
+}
+.projectTitle{
+	border-bottom: 1px solid #000000;
+	margin: 10px 0px 10px 0px;
+}
+.projectNumbers{
+	float: right;
+	text-align: right;
+	width: 100px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 11px;
+}
+.selectionDescriptions p{
+	display: none;
+}
+#copyright{
+	clear: both;
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+	font-size: 11px;
+	color: #000000;
+	border-top: 1px solid #000000;
+}
+#copyright a {
+	color: #000000;
+	text-decoration: underline;
+}
+acronym{
+	text-decoration:none;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+.clear{
+	margin: 0px;
+	padding: 0px;
+}
+.floatRight{
+	float: right;
+	clear: right;
+	margin: 10px;
+}
+.floatLeft{
+	float: left;
+	clear: left;
+	margin: 10px;
+}
+.hidden{
+	display: none;
+}
+.icon{
+	margin: 0px 5px 0px 0px;
+}
+label {
+	display: block;
+	margin: 2px 0px 2px 0px;
+	padding: 0px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}

@@ -1,0 +1,19 @@
+
+# Contact info submission
+
+url: weekbeforenext.com/
+site_owner: April Sides
+address1: 
+address2: 
+city: Asheville
+state: NC
+country: United States
+postal_code: 28805
+phone_number: 
+display_email: aprilsides@weekbeforenext.com
+site_name: weekbeforenext.com
+site_description: This is a showcase of the graphic and web design talents 
+of April Sides. April Sides is a Graphic/Web Designer 
+currently living and working in Asheville, North Carolina. 
+She is interested in relocating to the Chicago area during 
+the summer of 2005

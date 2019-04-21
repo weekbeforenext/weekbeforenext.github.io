@@ -1,0 +1,1 @@
+<img src="../media/images/clothing/clothing_left.jpg" alt="Clothing such as scarfs, dresses, bags, hats, gloves, work-t's, and work-jeans remind us of earlier times when working the land was what we lived for." width="310" height="405" border="0">

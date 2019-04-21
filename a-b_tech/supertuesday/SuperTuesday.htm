@@ -1,0 +1,438 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Spring 2009 Super Tuesday</title>
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1">
+
+<link rel="stylesheet" href="tuesdayv3.css" type="text/css" media="screen">
+<style>
+/*-----------------------------*/
+/* top right corner navigation */
+/*-----------------------------*/
+div.campusnav	{
+	width: 100%;
+	height: 53px;
+	margin: 0px;
+	padding-top: 4px;
+	border: 0px;
+	background-color: #FEE88A;
+	text-align: right;
+}
+
+.campusnavlist li	{
+	color: #000000;
+	margin: 0px;
+	padding: 0px 4px;
+	font: bold 10px verdana, arial, sans-serif;
+	display: inline;
+	list-style-type: none;
+	border-top: 0px;
+	border-right: 1px solid #000000;
+	border-bottom: 0px;
+	border-left: 0px;
+}
+
+/*--------------------------*/
+/* all the links treatments */
+/*--------------------------*/
+a.campus:link	{ color: #000000;
+	text-decoration: none;
+}
+
+a.campus:visited	{	color: #000000;
+	text-decoration: none;
+}
+
+a.campus:hover	{	color: #000000;
+	text-decoration: underline;
+}
+
+a.global:link	{ color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.global:visited	{	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.global:hover	{	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+/*---------------------------------------------------------*/
+/* this is the div style for the global intranet navigation. It works in conjunction with the aforewritten css; top right corner navigation*/
+/*---------------------------------------------------------*/
+div.bbg	{
+	width: 100%;
+	margin: 0px;
+	border: 0px;
+	padding: 3px 0px;
+	background-color: #660033;
+	text-align: center;
+	vertical-align: middle;
+	clear: both;
+	line-height: normal;
+}
+
+.globalnavlist li	{
+	color: #ffffff;
+	margin: 0px;
+	padding: 0px 4px;
+	font: bold 10px verdana, arial, sans-serif;
+	display: inline;
+	list-style-type: none;
+	border-top: 0px;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 0px;
+	border-left: 0px;
+}
+
+/*--------------------------*/
+/* this makes sure that the last inline list item does not have a separator on its right where it doesn't need one*/
+/*--------------------------*/
+h4.lastli	{	
+border-bottom: 0px transparent;
+}
+
+</style>
+
+<script type="text/JavaScript"><!--
+
+//pastCode contains the class style name used for past sessions to help emphasize that the session has expired.
+	var pastCode ='pastsession';
+
+//nextCode contains the class style name used for the upcoming session to help emphasize that the session is the most current session to be attended.
+	var nextCode ='presentsession';
+
+//futureCode contains the class style name used for sessions in the future to help emphasize that the session has yet to be attended.
+	var futureCode ='session';
+
+//today gets current date.
+	var today = new Date();
+	//var today = new Date(2007,09-1,05);//test date
+
+//function called by each session div passing the date of the session.
+	function nextTuesday(yr,mon,day){
+		var year = yr;
+		var month = mon-1;
+		var day = day;
+		//alert(month);
+
+// tuesday becomes a new date based on the values passed in the function.
+		var tuesday = new Date(year,month,day);
+
+//calculates the difference in days between today's date and tuesday's date passed by the function.
+		var oneday = 1000*60*60*24;
+		var difference = Math.ceil((tuesday.getTime() - today.getTime()) / oneday);
+
+//if the first listing is more than a week in the future...
+//this part only applies to the first date of the schedule. The date in this if statement should match the date of the first session.
+		if (year == 2009 && month == 02-1 && day == 03){
+			if (difference >= 7){
+//if the first session is more than a week in the future, then it will show up as the next tuesday.
+				document.write("<div class='"+ nextCode +"'>");
+			}
+			else if (difference < 0){
+			
+//if the difference is negative, then the first session has passed and it shows up as a past tuesday.
+				document.write("<div class='"+ pastCode +"'>");
+			}
+			else if(difference >=0 && difference < 7){
+
+//if the first session is less than a week in the future or on the current day, then it will show up as the next tuesday.
+				document.write("<div class='"+ nextCode +"'>");
+			}
+		}
+		else{
+			if (difference < 0){
+
+//if difference is negative, then the session has passed.
+				document.write("<div class='"+ pastCode +"'>");
+			}
+
+			if (difference >= 0 && difference <= 6){
+
+//if the session is less than a week in the future or the current day, then it shows up as the next tuesday.
+				document.write("<div class='"+ nextCode +"'>");
+
+			}
+
+			else if (difference >= 7){
+
+//if the session is more than a week in the future, then it shows up as being in the future.
+				document.write("<div class='"+ futureCode +"'>");
+
+			}
+		}
+	}
+
+//--></script>
+</head>
+<body>
+
+<h1>Spring 2009 - SUPER TUESDAY</h1>
+<div class="participants">
+<h2>Participants</h2>
+
+<ol>
+<li><strong>John Doe</strong><br /><em>Instructor, Hotel Restaurant Management</em></li>
+<li><strong>Jane Smith</strong><br /><em>Educational Technology Services Technician, Learning Resources</em></li>
+<li><strong>Joe Cool</strong><br /><em>Secretary, Records Management</em></li>
+</ol>
+
+</div>
+
+<div class="calendar">
+<div>
+<h2>New Employee Orientation</h2>
+</div>
+
+<div>
+<script>nextTuesday(2011,02,03);</script>
+<h3>February 03</h3>
+<ul>
+  <h5>Kick-off</h5>
+  <li>Kaye Waugh, Director, Human Resources<br />
+  <ul>
+    <em>Welcome and Introductions</em>
+  </ul>
+	  <h4>Time: 3:00-3:30 p.m.<br />
+	    Location: Simpson Lecture Room</h4>
+	  <h5>Faculty Association</h5>
+	  <li>Marlene Roden, President, Faculty Association</li>
+	  <h4>Time: 3:30-3:45 p.m.<br />
+	    Location: Simpson Lecture Room</h4>
+	  <h5>College Initiatives </h5>
+	  <li>Jeff Ferezan, VP Initiatives<br />
+	    Marilyn McDonald, Dean, Designed Teaching &amp; Learning</li>
+	  <h4>Time: 3:45-4:00 p.m.<br />
+	    Location: Simpson Lecture Room</h4>
+		<h5>College Forum</h5>
+<li>Denise Hansen, Chair, College Forum </li>
+  <h4>Time: 4:00-4:15 p.m.<br />
+    Location: Simpson Lecture Room</h4>
+	  <h5>Research &amp; Planning</h5>
+	  <li>Dave White, Director, Research &amp; Planning</li>
+	  <h4>Time: 4:15-4:30 p.m.<br />
+	    Location: Simpson Lecture Room</h4>
+	  </li>
+</ul>
+</div>
+
+<div>
+<script>nextTuesday(2011,02,10);</script>
+<h3>February 10</h3>
+<ul>
+  <h5>College Relations</h5>
+  <li>Anita Metcalf, VP, College Relations<br />
+    Jimmie Cochran-Pratt, Foundation Development Officer <br />
+      Copper Coggins, Director, Organizational and Professional Development<br />
+Mona Cornwell, Director, Communications<br />
+Kaye Waugh, Director, Human Resources  </li>
+  <h4>Time: 3-4:30 p.m.<br />
+Location: Simpson Lecture Room</h4>
+</ul>
+</div>
+
+<div>
+<script>nextTuesday(2011,02,17);</script>
+<h3>February 17</h3>
+<ul>
+		  <h5>No Super Tuesday - Professional Development Afternoon</h5>
+</ul>
+</div>
+
+<div>
+<script>nextTuesday(2011,02,24);</script>
+<h3>February 24</h3>
+<ul>
+ <h5>Instructional Services</h5>
+  <li>Max Queen, EVP/Chief Learning Officer <br />
+  Sam Dosumu, VP, Instructional Services </li>
+  <h4>Time: 3-3:20 p.m.<br />
+Location: Sycamore 314 </h4>
+<h5>Arts &amp; Sciences</h5>
+  <li>Kenet Adamson, Dean, Arts &amp; Sciences</li>
+  <li><em>Biology, Biotechnology, Chemistry/Physics, English/Communications, Health &amp; Physical Education, Humanities &amp; Fine Arts, Mathematics, Social &amp; Behavioral Sciences </em></li>
+  <h4>Time: 3:20-3:40 p.m.<br />
+    Location: Sycamore 314</h4>
+	<h5>Invitational Education </h5>
+      <li>Carol Fleming, Invitational Education Coordinator </li>
+      <h4>Time: 3:40-3:55 p.m.<br />
+    Location: Sycamore 314 </h4>
+	<h5>Career Pathways </h5>
+    <li>Michael Dempsey, Career Pathways Director </li>
+    <h4>Time: 3:55-4:10 p.m.<br />
+    Location: Sycamore 314 </h4>
+	<li>Carol Stanford, Chair, Health &amp; P.E., Wellness Coordinator</li>
+  <h4>Time: 4:15-4:30 p.m.<br />
+    Location: Coman Gym </h4>
+	</ul>
+</div>
+
+<div>
+<script>nextTuesday(2200,03,03);</script>
+<h3>March 3</h3>
+<ul>
+<h5>Hospitality Education</h5>
+   <li>Sheila Tillman, Associate Dean, Hospitality Education</li>
+<li><em>Baking &amp; Pastry Arts, Culinary Technology, Hotel &amp; Restaurant Management</em></li>  
+<h4>Time: 3:00-3:45 p.m.<br />
+    Location: Magnolia Lobby</h4>
+	   <li>Sheila Tillman, Associate Dean, Hospitality Education</li>
+<li><em>Cosmetology, Therapeutic Massage</em></li>  
+<h4>Time: 3:50-4:30 p.m.<br />
+    Location: Birch 127</h4>
+</ul>
+</div>
+
+<div>
+<script>nextTuesday(2200,03,10);</script>
+<h3>March 10</h3>
+<ul>
+  <h5>Allied Health</h5>
+  <li>Ned Fowler  –  Dean, Allied Health &amp; Public Service Education</li>  
+  <h4>Time: 3-3:40 p.m.<br />
+    Location: Rhododendron 351</h4>
+	  <h5>Emergency Services &amp; Public Service Education </h5>
+      <li>Skye Myrick, Associate Dean, Emergency Services Academy<br />
+        Chris Fay, Chair, Basic Law Enforcement<br />
+        Keith Owens, Chair, Emergency Medical Services<br />
+        John Witherspoon, Chair, Fire Services Technology<br />
+        Cathy Cody, Chair, Early Childhood Education<br />
+        Megan Getty-Odom, Chair, Social Services</li>  
+      <h4>Time: 3:50-4:30 p.m.<br />
+    Location: Hemlock 208 </h4>
+</li>
+</ul>
+</div>
+
+<div>
+<script>nextTuesday(2200,03,17);</script>
+<h3>March 17</h3>
+<ul>
+<h5>Business Education</h5>
+   <li>Phil Leftwich – Dean, Business &amp; Hospitality Education</li>
+   <li><em>Administrative Medical Systems Technology, Business Administration, Business Computer Technology, Networking Technology</em></li>
+   <h4>Time: 3:00-3:45 p.m.<br />
+    Location: Balsam 115</h4>
+<h5>Engineering &amp; Applied Technology</h5>
+<li>Vernon Daughtery, Dean, Engineering &amp; Applied Technology</li>
+  <li><em>Air Conditioning/Heating &amp; Refrigeration , Automotive Systems &amp; Heavy Equipment Technology, Computer Aided Drafting Technology, Carpentry, Civil Engineering &amp; SurveyingTechnology, Computer Engineering Technology, Construction Management Technology, Electronics Engineering Technology, Machining/Welding Technology, Mechanical Engineering Technology</em></li>
+  <h4>Time: 3:50-4:30 p.m.<br />
+    Location: Dogwood Lobby (Due to condensed schedule - will be touring Dogwood only) </h4>
+</ul>
+</div>
+
+<div>
+<script>nextTuesday(2200,03,24);</script>
+<h3>March 24</h3>
+<ul>
+  <h5>Madison Campus Tour</h5>
+  <li>Connie Buckner, Director</li> 
+  <em>College van will leave parking lot B 17 below Simpson Admn. building at 2:30 p.m.</em>
+  <h4>Time: 2:30-4:30 p.m. <br />
+    Location: Madison Campus</h4>
+</ul>
+</div>
+
+<div>
+<script>nextTuesday(2200,03,31);</script>
+<h3>March 31</h3>
+<ul>
+  <h5>Division of Learning Resources </h5>
+  <li>Tom Dechant, Dean, Learning Resources<br />
+    Carol Fleming, Director, Learning Resources<br />
+  </li>
+  <h4>Time: 3-3:35 p.m.<br />
+    Location: Holly 120 </h4>
+	 <h5>Continuing Education - Asheville Campus</h5>
+  <li>Kay Manley, Executive Director, Adult Basic Skills <br />
+Brinda Caldwell-Ramsey, Director, Community Services Education </li>  
+  <em>Campus van will leave parking lot behind the gym at 3:35 p.m. for Pines Building &amp; Ivy Building</em>
+  <h4>Time: 3:40-4:05 p.m.<br />
+    Location: Pines Building - Lobby </h4>
+	  <li>Tim Hanlon, Coordinator, Decorative Restoration </li>  
+  <h4>Time: 4:10-4:30 p.m.<br />
+    Location: Ivy Building</h4>
+</ul>
+</div>
+
+<div>
+<script>nextTuesday(2200,04,07);</script>
+<h3>April 7</h3>
+<ul>
+  <h5>Continuing Education – Enka Campus Tour</h5>
+  <li>Barbara Keaton , VP, Economic &amp;Workforce Development/Continuing Education </li>
+  
+  <li><em>History of the facility &amp; overview of operations </em></li>
+   <li>Ken O'Connor , Executive Director, Workforce Development<br />
+    Shelley White, Executive Director, Occupational &amp; Public Service Training/HRD<br />
+    Jon Lawrie, Manager, Bionetwork Center<br />
+    Russ Yelton, Executive Director, Entrepreneurial Ventures &amp; Business Incubation <br />
+      <em>College van will leave parking lot B 17 below Simpson Admn. building at 2:30 p.m.</em></li>
+  <h4>Time: 2:30-4:30 p.m. <br />
+    Location: Haynes 127 </h4>
+	</li>
+</ul>
+</div>
+
+<div>
+<script>nextTuesday(2200,04,14);</script>
+<h3>April 14</h3>
+<ul>
+		  <h5>No Super Tuesday - Spring Break</h5>
+</ul>
+</div>
+
+<div>
+<script>nextTuesday(2200,04,21);</script>
+<h3>April 21</h3>
+
+<ul>
+<h5>Student Services</h5>
+<li>Dennis King, VP, Student Services<br />
+Lisa Bush, Director, Admissions/SSA<br />
+Scott Douglas, Registrar<br />
+Geli Klimek, Director, Transfer Advising Center/SSA<br />
+Debby Harmon, Director, Counseling Services/SSA<br />
+Donna Turner, Director, Financial Aid <br />
+    Annie Clingenpeel, Coordinator, Disability Services/SSA<br />
+    Michele Hathcock, Director, Recruitment &amp; Student Activities and A-B Tech at the Mall</li>
+  <h4>Time: 3-4:30 p.m.<br />
+    Location: Simpson Lecture Room</h4>
+</ul>
+</div>
+
+<div>
+<script>nextTuesday(2200,04,28);</script>
+<h3>April 28</h3>
+<ul>
+  <h5>Administrative Services</h5>
+<li>Richard Mauney, EVP, Chief Financial Officer<br />
+Lisa Evans, Director, Business Services<br />
+Benny Smith, Director, Plant Operations<br />
+Kara Keller, Director, Security<br />
+David McKinney, Director, Information Systems Technology</li>
+    <h4>Time: 3-4:30 p.m.<br />
+    Location: Simpson Lecture Room</h4>
+	</ul>
+</div>
+
+<div>
+<script>nextTuesday(2200,05,05);</script>
+<h3>May 5</h3>
+<ul>
+  <h5>Touchdown Celebration</h5>
+  <em>Q &amp; A Session with President, EVP's and VP's </em>
+    <h4>Time: 3-3:30 p.m.<br />
+    Location: Magnolia 232 </h4>
+  <em>New employee reception</em>
+  
+  <h4>Time: 3:45-4:30 p.m.<br />
+    Location: Magnolia 105 (private dining room) </h4>
+	</ul>
+</div>
+</div>
+</body>
+</html>

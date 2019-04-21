@@ -1,0 +1,258 @@
+.clear{
+	clear: both;
+	font-size: 1px;
+	height: 1px;
+}
+.hidden{
+	display: none;
+}
+#t_style{
+	padding: 5px 0px 0px 10px;
+	font-size: 10px;
+}
+#t_style a{
+	color: #999966;
+	text-decoration: none;
+}
+#g_style{
+	display: none;
+}
+#styleSwitch{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 195px;
+	text-align: center;
+}
+.imageRight{
+	display: none;
+}
+.imageLeft{
+	display: none;
+}
+.image{
+	display: none;
+}
+#title{
+	position: absolute;
+	top: 95px;
+	left: 205px;
+}
+#title h1{
+	font-size: 22px;
+	font-weight: normal;
+	color: #999966;
+}
+#title h2{
+	display: none;
+}
+#regMark{
+	font-size: 14px;
+	vertical-align: text-top;
+}
+#area{
+	color: #000000;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	color: #000000;
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#headImage{
+	width: 200px;
+	height: 140px;
+	padding: 20px 0px 0px 0px;
+	background-image: url(../images/spacer.gif);
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+}
+#sideBar{
+	position: absolute;
+	top: 149px;
+	left: 25px;
+	width: 158px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+#mainNavigation {
+	width: 158px;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	border-top: 0px;
+}
+#mainNavigation ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+#mainNavigation li {
+	margin: 0px;
+	padding: 0px;
+}
+#mainNavigation li a{
+	font-size: 11px;
+	display: block;
+	padding: 5px 5px 5px 5px;
+	background-color: #FFFFFF;
+	color: #999966;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 95%;
+	\width: 100%; /* IE 5 Win */
+	w\idth: 95%; /* IE 5 Mac and IE 6 */
+}
+html>body #mainNavigation li a{
+	width: auto; /* Non IE browsers */
+}
+#mainNavigation a:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+#mainSelected{
+	color: #000000;
+}
+#mainSelectedSpecial{
+	font-size: 11px;
+	width: 171px;
+	\width: 100%; /* IE 5 Win */
+	w\idth: 171px; /* IE 5 Mac and IE 6 */
+	margin: 0px;
+	display: block;
+	padding: 5px 5px 5px 5px;
+	background-color: #FFFFFF;
+	color: #000000;
+	text-transform: uppercase;
+}
+html>body #mainSelected{
+	width: auto;
+}
+#subNavigation li {
+	margin: 0px;
+	padding: 0px;
+}
+#subNavigation li a{
+	font-size: 12px;
+	display: block;
+	padding: 5px 5px 5px 20px;
+	background-color: #FFFFFF;
+	color: #999966;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing: 0px;
+	width: 86%; 
+	\width: 100%; /* IE 5 Win */
+	w\idth: 86%; /* IE 5 Mac and IE 6 */
+}
+html>body #subNavigation li a{
+	width: auto;
+}
+#subNavigation a:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+#subSelected{
+	font-size: 12px;
+	width: 86%;
+	\width: 100%; /* IE 5 Win */
+	w\idth: 86%; /* IE 5 Mac and IE 6 */
+	margin: 0px;
+	display: block;
+	padding: 5px 5px 5px 20px;
+	background-color: #FFFFFF;
+	color: #000000;
+	text-transform: none;
+	letter-spacing: 0px;
+}
+html>body #subSelected{
+	width: auto;
+}
+#content{
+	position: absolute;
+	top: 153px;
+	left: 205px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	width: 510px;
+}
+#content h1{
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+#content h2{
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+#content a{
+	color: #330000;
+}
+#content a:hover{
+	color: #000000;
+}
+#content ul{
+	list-style-type: none;
+}
+#content td a{
+	display: block;
+	text-decoration: none;
+	color: #000000;
+}
+#content td a:hover{
+	display: block;
+	text-decoration: none;
+	color: #999966;
+}
+.important{
+	color: #CC0000;
+}
+#mailingList{
+	margin: 20px 0px 20px 0px;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	background-color: #FFFFCC;
+	border: 2px solid #330000;
+}
+#mailingList a{
+	color: #330000;
+	font-weight: bold;
+}
+#footLinks{
+	margin: 20px 0px 20px 0px;
+	text-align: center;
+}
+#footLinks a{
+	color: #330000;
+	font-weight: bold;
+}
+#copyright{
+	font-size: 10px;
+	margin: 40px 0px 40px 0px;
+	padding: 0px;
+	text-align: center;
+}
+#photoGallery{
+	width: 400px;
+	margin: 5px 0px 40px 0px;
+	font-size: 14px;
+}
+#photoGallery a{
+	font-weight: bold;
+}
+#photoGalleryBack{
+	float: left;
+}
+#photoGalleryNext{
+	float: right;
+}

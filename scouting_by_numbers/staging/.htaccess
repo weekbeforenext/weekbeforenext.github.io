@@ -1,0 +1,4 @@
+AuthName "Password Protected Area"
+AuthType Basic
+Require valid-user
+AuthUserFile "/home/weekbefo/.htpasswds/public_html/scouting_by_numbers/staging/passwd"

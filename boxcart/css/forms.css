@@ -1,0 +1,37 @@
+body,table,input,select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 16px;
+	font-weight: normal;
+	color: #000000;
+}
+
+.formcolor {
+	background-color: #78B800;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: normal;
+}
+
+#content {
+	width: 750px;
+	padding: 2px;
+	margin-top: 2px;
+	border-top: 1px solid #78B800;
+	border-bottom: 1px solid #78B800;
+}
+
+.formtable {
+	border: 1px solid #CCCCCC;
+	width: 650px;
+}
+
+.reqd {
+	color: #FF0000;
+}

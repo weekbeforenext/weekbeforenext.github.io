@@ -1,0 +1,74 @@
+<HTML>
+<HEAD>
+<TITLE>april sides</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<!-- ImageReady Preload Script (backgroundindex.psd) -->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		backgroundindex_03_over = newImage("images/backgroundindex_03-over.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+<!-- End Preload Script -->
+
+
+<!-- Begin 
+function Launch(page) { 
+OpenWin = this.open(page, "CtrlWindow", "toolbar=no,menubar=no,location=no,scrollbars=no,resizable=no,width=599,height=349"); 
+} 
+// End --> 
+
+
+function AutoLaunch(){
+	if(navigator.plugins["Shockwave Flash"]){
+		Launch('portfolio03.html')
+	}
+	else{
+	}
+}
+</SCRIPT>
+
+
+</HEAD>
+<BODY BGCOLOR=#999999 background="images/bg.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" ONLOAD="preloadImages();AutoLaunch()">
+<!-- ImageReady Slices (backgroundindex.psd) -->
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+  <TR> 
+    <TD> <a href="javascript:Launch('portfolio03.html')"><IMG SRC="images/backgroundindex_01.gif" WIDTH=281 HEIGHT=114 border="0"></a></TD>
+  </TR>
+  <TR> 
+    <TD> <A HREF="http://www.macromedia.com/go/getflash" target="_blank"
+			   ONMOUSEOVER="changeImages('backgroundindex_03', 'images/backgroundindex_03-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('backgroundindex_03', 'images/backgroundindex_03.gif'); return true;"> 
+      <IMG NAME="backgroundindex_03" SRC="images/backgroundindex_03.gif" WIDTH=281 HEIGHT=14 BORDER=0></A></TD>
+  </TR>
+  <TR> 
+    <TD> <IMG SRC="images/backgroundindex_04.gif" WIDTH=281 HEIGHT=16></TD>
+  </TR>
+</TABLE>
+<!-- End ImageReady Slices -->
+
+</BODY>
+</HTML>

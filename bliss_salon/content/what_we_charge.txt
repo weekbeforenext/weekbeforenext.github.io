@@ -1,0 +1,51 @@
+&text=
+<!-- headlines must be contained in the <p>, <font> and <b> tags -->
+<!-- paragraphs should be contained in <p> tags -->
+<!-- for dark orange text put <font color="#993300"> before the text and </font> after the text -->
+
+<font color="#993300">Design Cuts and Finish Work</font>
+womens design cut - <font color="#993300">from 30</font>
+mens design cut - <font color="#993300">from 20</font>
+shampoo / blowdry styling - <font color="#993300">from 18</font>
+customizable conditioning treatment - <font color="#993300">from 15</font>
+upwork - <font color="#993300">from 55</font>
+<br><br>
+
+<font color="#993300">Colour Services</font>
+colour - <font color="#993300">from 40</font>
+colour / blowdry styling - <font color="#993300">from 58</font>
+colour / design cut - <font color="#993300">from 70</font>
+partial hi-lite - <font color="#993300">from 55</font>
+partial hi-lite / blowdry styling - <font color="#993300">from 73</font>
+partial hi-lite / design cut - <font color="#993300">from 85</font>
+hi-lite - <font color="#993300">from 70</font>
+hi-lite / blowdry styling - <font color="#993300">from 88</font>
+hi-lite / design cut - <font color="#993300">from 100</font>
+double process - <font color="#993300">from 80</font>
+double process / blowdry styling - <font color="#993300">from 98</font>
+double process / design cut - <font color="#993300">from 110</font>
+gloss treatment - <font color="#993300">from 15</font>
+colour correction - <font color="#993300">by consultation only</font>
+hair extensions - <font color="#993300">by consultation only</font>
+<br><br>
+
+<font color="#993300">Texturizing Services</font>
+texture - <font color="#993300">from 60</font>
+texture / blowdry styling - <font color="#993300">from 78</font>
+texture / design cut - <font color="#993300">from 90</font>
+relaxer - <font color="#993300">from 65</font>
+<br><br>
+
+<font color="#993300">Wedding Services</font>
+trial styling - <font color="#993300">from 55</font>
+shampoo / blowdry styling - <font color="#993300">from 30</font>
+<br><br>
+
+<font color="#993300">About Your Visit to Bliss</font>
+We accept Visa, Mastercard, personal checks, and cash for payment of services.<br>
+Bliss Gift Certificates are available in any dollar amount starting at $25 and can be redeemed for products and/or services only at Bliss Salon.<br>
+Prices vary according to hair length, hair thickness, complexity of service, and varying degrees of experience among our team of stylists.<br>
+Please call us if you need to cancel. Your appointment time is reserved for you. If you are unable to keep your appointment, please notify us 24 hours in advance to avoid any charges.<br>
+Bridal parties are required to cancel no later than 4 days prior to their scheduled service or 50 percent of service costs will be charged. No-shows will be charged 100 percent of service costs.<br>
+All prices are subject to change without notice.<br>
+We reserve the right to refuse service to anyone.

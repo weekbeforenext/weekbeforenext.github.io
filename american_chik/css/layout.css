@@ -1,0 +1,58 @@
+/* CSS Document */
+body{
+	margin: 12px 0px 0px 0px;
+}
+#container{
+	width: 760px;
+	height: 480px;
+	position: relative;
+	margin: 0px auto;
+}
+#left{
+	float:left;
+	width:320px;
+	height: 480px;
+}
+#id{
+	position:relative;
+	top: 0px;
+	left:0px;
+	width: 119px;
+	height: 200px;
+	background-color: #000000;
+	z-index: 1;
+}
+#under{
+	position:relative;
+	top: -185px;
+	left:0px;
+	width:320px;
+	height: 480px;
+	z-index: 0;
+}
+#top{
+	margin: 0px 0px 0px 10px;
+	width:310px;
+	height:405px;
+	z-index: 0;
+}
+#middle{
+	width: 100px;
+	height: 445px;
+	z-index: 0;
+	float: left;
+	margin: 15px 0px 0px 0px;
+}
+#right{
+	width: 340px;
+	height: 465px;
+	z-index: 0;
+	float: left;
+	margin: 15px 0px 0px 0px;
+}
+.floatLeft{
+	float:left;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}

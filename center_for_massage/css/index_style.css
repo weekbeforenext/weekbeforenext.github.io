@@ -1,0 +1,248 @@
+.clear{
+	clear: both;
+	font-size: 1px;
+	height: 1px;
+	line-height: 1em;
+}
+.hidden{
+	display: none;
+}
+#logo{
+	display: none;
+}
+.imageRight{
+	float: right;
+	margin: 5px 0px 10px 10px;
+}
+.imageLeft{
+	float: left;
+	margin: 5px 10px 10px 0px;
+}
+#title{
+	display: none;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	color: #000000;
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#container {
+	position: relative;
+	margin: 0px auto;
+	border: 0px;
+	padding: 0px;
+	width: 600px;
+	\width: 620px; /* IE 5 Win */
+	w\idth: 600px; /* IE 5 Mac and IE 6 */
+	text-align: left;
+	background-color: #FFFFFF;
+}
+#headImage{
+	text-align: left;
+	background-image: url(../images/index.jpg);
+	width: 600px;
+	height: 290px;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+#headImageLeft{
+	position: relative;
+	top: 55px;
+	color: #FFFFFF;
+	text-align: center;
+	width: 300px;
+	margin: 0px;
+}
+#headImageLeft h1{
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px 0px 0px 0px;
+	line-height: 1em;
+}
+#headImageLeft p{
+	font-size: 12px;
+	margin: 0px 0px 0px 0px;
+}
+#mainNavigation {
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	border-top: 0px;
+}
+#mainNavigation ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+#mainNavigation li {
+	display: inline;
+	margin: 0px 4px 0px 0px;
+	padding: 0px;
+}
+#mainNavigation li a{
+	font-size: 11px;
+	padding: 5px 5px 5px 5px;
+	background-color: #FFFFFF;
+	color: #999966;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 95%;
+	\width: 100%; /* IE 5 Win */
+	w\idth: 95%; /* IE 5 Mac and IE 6 */
+}
+html>body #mainNavigation li a{
+	width: auto; /* Non IE browsers */
+}
+#mainNavigation a:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+.quickNews{
+	float: left;
+	clear: left;
+	width: 170px;
+	\width: 190px; /* IE 5 Win */
+	w\idth: 170px; /* IE 5 Mac and IE 6 */
+	margin: 20px 10px 0px 10px;
+	padding: 10px;
+	background-color: #CCCC99;
+}
+.quickNews h1{
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+.quickNews h2{
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+}
+.quickNews h2 a{
+	color: #330000;
+	text-decoration: none;
+}
+.quickNews h2 a:hover{
+	color: #000000;
+}
+.quickNews a{
+	color: #330000;
+}
+.quickNews a:hover{
+	color: #000000;
+}
+.quickNews p{
+	margin: 5px 0px 10px 20px;
+}
+#content{
+	float: right;
+	clear: right;
+	margin: 20px 10px 0px 10px;
+	padding: 0px;
+	border: 0px;
+	width: 360px;
+	\width: 380px; /* IE 5 Win */
+	w\idth: 360px; /* IE 5 Mac and IE 6 */
+	border: 0px;
+}
+#content h1{
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+#content h2{
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+#content h2 a{
+	color: #999966;
+	text-decoration: none;
+}
+#content h2 a:hover{
+	color: #000000;
+}
+#content a{
+	color: #330000;
+}
+#content a:hover{
+	color: #000000;
+}
+#content ul{
+	list-style-type: none;
+}
+#content td{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#content td a{
+	display: block;
+	text-decoration: none;
+	color: #000000;
+}
+#content td a:hover{
+	display: block;
+	text-decoration: none;
+	color: #999966;
+}
+.important{
+	color: #CC0000;
+}
+#mailingList{
+	margin: 20px 10px 20px 10px;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	background-color: #FFFFCC;
+	border: 2px solid #330000;
+}
+#mailingList a{
+	color: #330000;
+	font-weight: bold;
+}
+#footLinks{
+	margin: 20px 0px 20px 0px;
+	text-align: center;
+}
+#footLinks a{
+	color: #330000;
+	font-weight: bold;
+}
+#copyright{
+	font-size: 10px;
+	margin: 40px 0px 40px 0px;
+	padding: 0px;
+	text-align: center;
+}
+.courseTitle{
+	padding: 5px 5px 1px 5px;
+	margin: 10px 0px 0px 0px;
+	background-color: #CCCC99;
+}
+.courseInstructor{
+	margin: 5px 0px 10px 5px;
+}
+#photoGallery{
+	width: 400px;
+	margin: 5px 0px 40px 0px;
+	font-size: 14px;
+}
+#photoGallery a{
+	font-weight: bold;
+}
+#photoGalleryBack{
+	float: left;
+}
+#photoGalleryNext{
+	float: right;
+}

@@ -1,0 +1,1 @@
+<img src="../media/images/resting/resting_left.jpg" alt="Resting will help us explore the meaning of rest and sleep, while fallingwater and waterfalls inspire bed linens, quilts, and more." width="310" height="405" border="0">

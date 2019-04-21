@@ -1,0 +1,58 @@
+&text=
+<!-- paragraphs should be contained in <p> tags -->
+<!-- for dark blue text put <font color="#006699"> before the text and </font> after the text -->
+
+<p><font color="#006699">Valerie Lamoreux</font></p>
+
+<p>salon manager/den mother</p>
+<br>
+
+<p><font color="#006699">Q. What styling products did you use this morning?</font></p>
+
+<p>A. prep, confixer, and styling wax.</p>
+<br>
+
+<p><font color="#006699">Q. Do you have a favorite room in your house? What makes it special to you?</font></p>
+
+<p>A. The dining room. Sitting at the table with a cup of coffee and admiring the garden outside my window.</p>
+<br>
+
+<p><font color="#006699">Q. What stands out as the most horrific hairstyle you have ever had?</font></p>
+
+<p>A. Early eighties Pat Benatar shag.</p>
+<br>
+
+<p><font color="#006699">Q. What hair trend do you wish would just die?</font></p>
+
+<p>A. Overly lengthy bangs. Oh yes, and definitely "helmet head".</p>
+<br>
+
+<p><font color="#006699">Q. How do you define "bliss"?</font></p>
+
+<p>A. Listening to the rain on my front porch.</p>
+<br>
+
+<p><font color="#006699">Q. What does a typical meal consist of in your home?</font></p>
+
+<p>A. Maybe a quinoa salad. (I love that tamari!)</p>
+<br>
+
+<p><font color="#006699">Q. What additional talents/hobbies do you possess that may be unknown to the general public? (until now!)</font></p>
+
+<p>A. My daughters claim I have the voice of an angel. I am also patiently learning to play the Tumba drum (a slightly larger version of the congo).</p>
+<br>
+
+<p><font color="#006699">Q. What might we find you doing outside the salon?</font></p>
+
+<p>A. Toiling away in my garden, jammin Mozarts "Marriage of Figaro"</p>
+<br>
+
+<p><font color="#006699">Q. What book/s are you currently reading?</font></p>
+
+<p>A. Prodigal Summer by Barbara Kingsolver.</p>
+<br>
+
+<p><font color="#006699">Q. What is the best part of your job/career?</font></p>
+
+<p>A. Being part of a team of truly talented individuals. I also enjoy meeting new people - especially if they have an affinity for gardening. Or TIVO.</p>
+<br>

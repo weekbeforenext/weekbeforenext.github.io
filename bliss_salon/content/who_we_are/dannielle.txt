@@ -1,0 +1,57 @@
+&text=
+<!-- paragraphs should be contained in <p> tags -->
+<!-- for dark blue text put <font color="#006699"> before the text and </font> after the text -->
+
+<p><font color="#006699">Danielle Cornett</font></p>
+<p>hairstylist extraordinaire</p>
+<br>
+
+<p><font color="#006699">Q. How do you define "bliss"?</font></p>
+
+<p>A. A life-saver in more ways than one.</p>
+<br>
+
+<p><font color="#006699">Q. What hair trend do wish would just die?</font></p>
+
+<p>A. Bowl cuts - Ewwww. They should only allow bowl cuts during fraternity hazings.</p>
+<br>
+
+<p><font color="#006699">Q. What stands out as the most horrific hairstyle you have ever had?</font></p>
+
+<p>A. Since my mother made me do it - she requested that I refrain from discussing the events surrounding the "Perm Incident".</p>
+<br>
+
+<p><font color="#006699">Q. How do you feel about men coloring their hair?</font></p>
+
+<p>A. Men should have the option of coloring their hair if they so desire. Why not? (many men do look quite dignified with gray though)</p>
+<br>
+
+<p><font color="#006699">Q. What styling products did you use this morning?</font></p>
+
+<p>A. grooming creme, tonic, and emolient.</p>
+<br>
+
+<p><font color="#006699">Q. What is one lesson that you've learned the hard way?</font></p>
+
+<p>A. Too many layers plus thin hair = STRINGY</p>
+<br>
+
+<p><font color="#006699">Q. What additional talents/hobbies do you posess that may be unknown to the general public? (until now!)</font></p>
+
+<p>A. I have wicked skills on the volleyball court!</p>
+<br>
+
+<p><font color="#006699">Q. What do you think is the essential element that completes a "look"?</font></p>
+
+<p>A. A good haircut. Its all about the cut.</p>
+<br>
+
+<p><font color="#006699">Q. What is your approach to determining which products to use on your client?</font></p>
+
+<p>A. Figuring out their hair type is numero uno - if the product isn't suitable for the kind of hair a person has, the results will reflect that. </p>
+<br>
+
+<p><font color="#006699">Q. What is the best part of your job/career?</font></p>
+
+<p>A. The girls at Bliss! Everyone here at the salon has my back. Its like having a second family.</p>
+<br>

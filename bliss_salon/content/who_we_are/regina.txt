@@ -1,0 +1,58 @@
+&text=
+<!-- paragraphs should be contained in <p> tags -->
+<!-- for dark blue text put <font color="#006699"> before the text and </font> after the text -->
+
+<p><font color="#006699">Regina Veach</font></p>
+
+<p>hairstylist extraordinaire</p>
+<br>
+
+<p><font color="#006699">Q. What additional talents do you possess that may be unknown to the general public? (until now!)</font></p>
+
+<p>A. My name is Regina Veach and...... I am a scrapbooker. And I know the lyrics to just about every song recorded between 1979 and 1989.</p>
+<br>
+
+<p><font color="#006699">Q. What might we find you doing outside the salon?</font></p>
+
+<p>A. I spend as much time as I possibly can with my nephews. Or my flower garden. All remaining time is strictly devoted to shopping.</p>
+<br>
+
+<p><font color="#006699">Q. What do you think is the essential element that completes a "look"?</font></p>
+
+<p>A. A solid haircut.</p>
+<br>
+
+<p><font color="#006699">Q. What is the best part of your job/career?</font></p>
+
+<p>A. Having the opportunity to contribute to the self-image of another person. My career is really gratifying on several different levels. Everybody is happy!</p>
+<br>
+
+<p><font color="#006699">Q. What does a typical meal consist of in your home?</font></p>
+
+<p>A. Saturday Night grilled steak and chicken. My husband and I have an ongoing debate as to who is the real "Grillmaster"!</p>
+<br>
+
+<p><font color="#006699">Q. What is one lesson that you've learned the hard way?</font></p>
+
+<p>A. Never cut bangs wet.</p>
+<br>
+
+<p><font color="#006699">Q. What styling products did you use this morning?</font></p>
+
+<p>A. prep, thickening spray, and sumotech.</p>
+<br>
+
+<p><font color="#006699">Q. Do you have a favorite room in your house? What makes it special to you?</font></p>
+
+<p>A. My living room. The room has black and white elements incorporated into the decor which has always had a relaxing effect on me.</p>
+<br>
+
+<p><font color="#006699">Q. How do you feel about men coloring their hair?</font></p>
+
+<p>A. Yes. Definitely. If it contributes positively to their self-image, than why not?</p>
+<br>
+
+<p><font color="#006699">Q. What stands out as the most horrific hairstyle you have ever had?</font></p>
+
+<p>A. Permed big bangs. Need I say more?</p>
+<br>

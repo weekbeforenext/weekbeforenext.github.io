@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Spring 2005 Super Tuesday</title>
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1">
+
+<link rel="stylesheet" href="tuesdayv3.css" type="text/css" media="screen">
+<style>
+/*-----------------------------*/
+/* top right corner navigation */
+/*-----------------------------*/
+div.campusnav	{
+	width: 100%;
+	height: 53px;
+	margin: 0px;
+	padding-top: 4px;
+	border: 0px;
+	background-color: #FEE88A;
+	text-align: right;
+}
+
+.campusnavlist li	{
+	color: #000000;
+	margin: 0px;
+	padding: 0px 4px;
+	font: bold 10px verdana, arial, sans-serif;
+	display: inline;
+	list-style-type: none;
+	border-top: 0px;
+	border-right: 1px solid #000000;
+	border-bottom: 0px;
+	border-left: 0px;
+}
+
+/*--------------------------*/
+/* all the links treatments */
+/*--------------------------*/
+a.campus:link	{ color: #000000;
+	text-decoration: none;
+}
+
+a.campus:visited	{	color: #000000;
+	text-decoration: none;
+}
+
+a.campus:hover	{	color: #000000;
+	text-decoration: underline;
+}
+
+a.global:link	{ color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.global:visited	{	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.global:hover	{	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+/*---------------------------------------------------------*/
+/* this is the div style for the global intranet navigation. It works in conjunction with the aforewritten css; top right corner navigation*/
+/*---------------------------------------------------------*/
+div.bbg	{
+	width: 100%;
+	margin: 0px;
+	border: 0px;
+	padding: 3px 0px;
+	background-color: #660033;
+	text-align: center;
+	vertical-align: middle;
+	clear: both;
+	line-height: normal;
+}
+
+.globalnavlist li	{
+	color: #ffffff;
+	margin: 0px;
+	padding: 0px 4px;
+	font: bold 10px verdana, arial, sans-serif;
+	display: inline;
+	list-style-type: none;
+	border-top: 0px;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 0px;
+	border-left: 0px;
+}
+
+/*--------------------------*/
+/* this makes sure that the last inline list item does not have a separator on its right where it doesn't need one*/
+/*--------------------------*/
+li.lastli	{	border-right: none;
+}
+
+</style>
+
+<script type="text/JavaScript"><!--
+
+//pastCode contains the class style name used for past sessions to help emphasize that the session has expired.
+	var pastCode ='pastsession';
+
+//nextCode contains the class style name used for the upcoming session to help emphasize that the session is the most current session to be attended.
+	var nextCode ='presentsession';
+
+//futureCode contains the class style name used for sessions in the future to help emphasize that the session has yet to be attended.
+	var futureCode ='session';
+
+//today gets current date.
+	var today = new Date();
+
+//function called by each session div passing the date of the session.
+	function nextTuesday(yr,mon,day){
+		var year = yr;
+		var month = mon;
+		var day = day;
+
+// tuesday becomes a new date based on the values passed in the function.
+		var tuesday = new Date(yr,mon,day);
+
+//calculates the difference in days between today's date and tuesday's date passed by the function.
+		var oneday = 1000*60*60*24;
+		var difference = Math.ceil((tuesday.getTime() - today.getTime()) / oneday);
+
+//if the first listing is more than a week in the future...
+//this part only applies to the first date of the schedule. The date in this if statement should match the date of the first session.
+		if (yr == 2005 && month == 08 && day == 06){
+			if (difference >= 7){
+			
+//if the first session is more than a week in the future, then it will show up as the next tuesday.
+				document.write("<div class='"+ nextCode +"'>");
+			}
+			else if (difference < 0){
+			
+//if the difference is negative, then the first session has passed and it shows up as a past tuesday.
+				document.write("<div class='"+ pastCode +"'>");
+			}
+			else if(difference >=0 && difference < 7){
+
+//if the first session is less than a week in the future or on the current day, then it will show up as the next tuesday.
+				document.write("<div class='"+ nextCode +"'>");
+			}
+		}
+		else{
+			if (difference < 0){
+
+//if difference is negative, then the session has passed.
+				document.write("<div class='"+ pastCode +"'>");
+			}
+
+			if (difference >= 0 && difference <= 6){
+
+//if the session is less than a week in the future or the current day, then it shows up as the next tuesday.
+				document.write("<div class='"+ nextCode +"'>");
+
+			}
+
+			else if (difference >= 7){
+
+//if the session is more than a week in the future, then it shows up as being in the future.
+				document.write("<div class='"+ futureCode +"'>");
+
+			}
+		}
+	}
+
+//--></script>
+</head>
+<body>
+
+<!-- #include file ="../../navs/header.inc" -->
+
+
+<h1>Spring 2006 - SUPER TUESDAY</h1>
+<div class="participants">
+<h2>Participants</h2>
+
+<ol>
+
+<li><strong>Peggy S. Bulla</strong><br />
+<em>Career Counselor</em></li>
+<li><strong>Angela R. Calhoun</strong><br />
+<em>Library Assistant</em></li>
+<li><strong>Donna Chandler</strong><br />
+<em>Early College Coordinator</em></li>
+<li><strong>Vernon Daughtery</strong><br />
+<em>Dean, Engineering and Applied Technology</em></li>
+<li><strong>Charles R. deVries</strong><br />
+<em>Instructor, Baking and Pastry Arts</em></li>
+<li><strong>Deborah E. Ellington</strong><br />
+<em>Web Designer</em></li>
+<li><strong>Karla A. Hollins</strong><br />
+<em>Instructor, Veterinary Medical Technology</em></li>
+<li><strong>Doug Hutchman</strong><br />
+<em>Early College Work-Based Counselor</em></li>
+<li><strong>Christina L. Lang</strong><br />
+<em>Program Coordinator, Instructor Health Occupations</em></li>
+<li><strong>Nicholas F. Lanning</strong><br />
+<em>Instructor, Automotive Technologies</em></li>
+<li><strong>Lydia Luka</strong><br />
+<em>Instructor, Nursing</em></li>
+<li><strong>Jill R. McNabb</strong><br />
+<em>Secretary, Records Management</em></li>
+<li><strong>Karen Morgan</strong><br />
+<em>Early College Counselor</em></li>
+<li><strong>Tamma P. Moriarty</strong><br />
+<em>Grantwriter/Coordinator</em></li>
+<li><strong>Dara A. Narsiff</strong><br />
+<em>Secretary</em></li>
+<li><strong>Eric S. Noblett</strong><br />
+<em>Custodian</em></li>
+<li><strong>Robbie P. Piel</strong><br />
+<em>Instructor, Foodservice Technology</em></li>
+<li><strong>Mary L. Trigg</strong><br />
+<em>Secretary, Adult Basic Skills</em></li>
+<li><strong>Meg Turner</strong><br />
+<em>Early College Principal</em></li>
+<li><strong>Kaye N. Waugh</strong><br />
+<em>Director, Human Resources</em></li>
+
+</ol>
+</div>
+
+<div class="calendar">
+<div>
+<h2>New Employee Orientation</h2>
+</div>
+
+<div>
+<!-- Months range from 0-11 for javascript. January = 00, December = 11. -->
+<script>nextTuesday(2005,08,06);</script>
+<h3>September 6: Kick Off</h3>
+<h5>Get Acquainted Activities</h5>
+<ul>
+<li>K. Ray Bailey, President<br /><em>Overview of College, College mission and goals</em></li>
+<li>Dave White, Director, Research and Planning<br /><em>College Planning and program review</em></li>
+<li>Marilyn McDonald, Director, Career Pathways<br /><em>Overview of programs
+</em></li>
+</ul>
+<h4>Time: 3:00-4:30<br />
+Location: Simpson Lecture Room</h4>
+</div>
+
+<div>
+<script>nextTuesday(2005,08,13);</script>
+<h3>September 13: College Relations</h3>
+<ul>
+<li>Anita Metcalf, VP, College Relations<br /><em>Overview of College Relations</em></li>
+<li>Mona Cornwell, Director, Communications<br /><em>Publications and public information procedures</em></li>
+<li>Libby Hodan, Development Officer<br /><em>Foundation projects</em></li>
+<li>Kaye Waugh , Director, Human Resources <br />
+  <em>College policies, diversity, benefits</em></li>
+<li>Carol Rovello, Director, Employee &amp; Organization Development<br /><em>Staff development information</em></li>
+<li>College Forum representative<br /><em>College forum responsibilities</em></li>
+</ul>
+<h4>Time: 3:00-4:30<br />
+Location: Simpson Lecture Room</h4>
+</div>
+
+<div>
+<script>nextTuesday(2005,08,20);</script>
+<h3>September 20: NO SESSION</h3>
+</div>
+
+<div>
+<script>nextTuesday(2005,08,27);</script>
+<h3>September 27: Administrative Services</h3>
+<ul>
+<li>Richard Mauney, VP, Administrative Services<br /><em>Overview of Administrative Services</em></li>
+<li>Mary Alice Church-Steurer, Director, Business Services<br /><em>Purchasing procedures and travel</em></li>
+<li>Lynn Deyton, Director, Financial Aid<br /><em>Financial services for students</em></li>
+<li>Hoot Gibson, Director, Security<br /><em>Security Services</em></li>
+<li>David McKinney, Director, Information Systems Technology <br />
+<em>Information Systems </em></li>
+<li>Benny Smith, Director, Plant Operations<br /><em>Plant Services</em></li>
+</ul>
+<h4>Time: 3:00-4:30<br />
+Location: Simpson Lecture Room</h4>
+</div>
+
+
+<div>
+<script>nextTuesday(2005,09,04);</script>
+<h3>October 4: Student Services - Admissions, Records and Registration</h3>
+<ul>
+<li>Dennis King, VP, Student Services<br /><em>Overview of Student Services</em></li>
+<li>Lisa Bush, Director, Admissions<br /><em>Admissions, transcripts and student records</em></li>
+<li>Scott Douglas, Registrar<br /><em>Registration and records overview</em></li>
+</ul>
+<h4>Time: 3:00-4:30<br />
+Location: Simpson Lecture Room</h4>
+</div>
+
+<div>
+<script>nextTuesday(2005,09,11);</script>
+<h3>October 11: NO SESSION</h3>
+</div>
+
+<div>
+<script>nextTuesday(2005,09,18);</script>
+<h3>October 18: Student Services - Counseling and Recruitment</h3> 
+<ul>
+<li>Dennis King, VP, Student Services</li>
+<li>Angelika Klimek, Director, Transfer Advising Center<br /><em>Overview of TAC</em></li>
+<li>Debby Harmon, Director, Counseling Services<br /><em>Overview of Counseling Services</em></li>
+<li>Annie Clingenpeel, Coordinator, Disability Services/Counselor<br /><em>Overview of Special Needs office</em></li>
+<li>Michele Hathcock, Director, Recruitment and Student Activities<br /><em>Overview of student activities and recruitment</em></li>
+</ul>
+<h4>Time: 3:00-4:30<br />
+Location: Simpson Lecture Room</h4>
+</div>
+
+<div>
+<script>nextTuesday(2005,09,25);</script>
+<h3> October 25:  Continuing Education Overview / Tour of Enka campus</h3>
+<ul>
+<li>Max Queen, VP, Continuing Education</li>
+</ul>
+<h4>Meet in the Simpson parking lot at 2:30</h4>
+</div>
+
+<div>
+<script>nextTuesday(2005,10,11);</script>
+<h3>November 1: Academic Services - Learning Resource Center,Wellness</h3>
+<ul>
+<li>Sharon Morrissey, VP, Instructional Services<br /><em>Overview of Instructional Services</em></li>
+<li>Holly McCurry, Wellness Director<br /><em>Overview of Wellness program</em></li>
+<li>Shirley McLaughlin, Director, LRC<br /><em>Services provided by LRC</em></li>
+<li>Lee Schleining, Coordinator, Audio-Visual services<br /><em>Audio-visual services</em></li>
+</ul>
+<h4>Time: 3:00-4:30<br />
+Location: Gym and Holly Learning Resource Center</h4>
+</div>
+
+
+
+<div>
+<script>nextTuesday(2005,10,08);</script>
+<h3>November 8: Tour of Madison campus</h3>
+<ul>
+<li>Connie Buckner, Director, Madison Campus</li>
+</ul>
+<h4>Meet in the Simpson parking lot at 2:30</h4>
+</div>
+
+
+<div>
+<script>nextTuesday(2005,10,15);</script>
+<h3>November 15:  Allied Health and Public Service, Arts and Sciences Tour</h3>
+<ul>
+<li>Ned Fowler, Dean, Allied Health &amp; Public Service<br /><em>Overview of Divisional programs</em></li>
+<li>Tom Dechant, Dean, Arts &amp; Sciences<br /><em>Overview of Divisional programs</em></li>
+<li>Gigi Derballa, Chair, Developmental Studies<br /><em>Services provided by Developmental studies</em></li>
+</ul>
+<h4>Time: 3:00-4:30<br />
+Location: Rhododendron 414</h4>
+</div>
+
+<div>
+<script>nextTuesday(2005,10,22);</script>
+<h3>November 22: Engineering and Applied Technology, Business and Hospitality Education Tour</h3>
+<ul>
+<li>TBD, Dean, Engineering &amp; Applied Technology<br />
+  <em>Overview of Divisional programs</em></li>
+<li>Phil Leftwich, Interim Dean, Business/Hospitality Education<br />
+  <em>Overview of Divisional programs</em></li>
+<li>Faculty association representative<br /><em>Faculty association responsibilities</em></li>
+</ul>
+<h4>Time: 3:00-4:30<br />
+Location: Birch lobby</h4>
+</div>
+
+
+
+<div>
+<script>nextTuesday(2005,10,29);</script>
+<h3>November 29: Q &amp; A: President and VP's</h3>
+<h4>Time: 3:00-4:30<br />
+Location: Birch 124(3:00 - 3:30)</h4>
+<h3>Super Tuesday Touchdown Celebration/Reception</h3>
+<h4>Birch Lobby (3:30 - 4:30)</h4>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+&text=We are located on the corner of 4th Avenue West and Church Street, one block west of Main Street in historic downtown Hendersonville.
+
+<font color="#339933">Bliss Salon
+147-A 4th Avenue West
+Hendersonville, NC 28792
+828.692.4452</font>
+<br><br>
+
+<font color="#339933">Directions from I-26:</font>
+Merge onto US 64 West via exit 49B (previously exit 18B) toward Hendersonville. Drive 2.2 miles, than make a left onto Church Street. At the intersection of 4th Avenue West and Church Street - Bliss is on the left - parking is located on the right.
+
+<font color="#339933">Directions from Greenville/Flat Rock:</font>
+Take Greenville Hwy/US 25 North into Hendersonville. Continue on US 25 - make a left at 4th Avenue East End at 147 4th Avenue West. Bliss is on the right at the intersection of Church Street and 4th Avenue West.
+
+<!-- for more space between paragraphs, use the <br> tag -->
+<!-- for dark green font color use the <font color="#339933"> tag at the beginning of the text and </font> after the text. -->

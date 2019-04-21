@@ -1,0 +1,7 @@
+&text=
+<!-- paragraphs should be contained in <p> tags -->
+<!-- for an extra line after each entry, insert the <br> tag -->
+<!-- for dark pink text put <font color="#CC0099"> in front of the text and </font> after text. -->
+
+<p><font color="#CC0099">06.10.05</font></p>
+<p>Busy month! Official launch date of new website. Angie is frantically packing for her upcoming trip to New York for some continuing education and training at the House of Bumble. The bliss event coordinators are inching closer toward locking down a date for our upcoming anniversary party, which is sure to become an annual must-attend event. Get on our email list, and we will keep you in the loop regarding product promotions, bliss promotions and future events. Installation will soon begin on a few flat-panel screens positioned over the shampoo bowls. Summer edition 2005 bliss shirts are on the press and will be available very soon for purchase. B and b launches Creme de coco - an incredible addition to their already stellar product line. Also be on the lookout for our new fancy, schmancy business cards.</p><br>
